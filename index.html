@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="heading">Stop Watch</h1>
+      <!-- this div will hold watch display -->
+      <div id="watch_container">
+        <h1>
+          <!-- this wil show minutes display -->
+          <span id="minutes">00</span>
+          <span>:</span>
+          <!-- this wil show seconds display -->
+          <span id="seconds">00</span>
+        </h1>
+      </div>
+      <!-- div to hold buttons  -->
+      <div id="button_container">
+        <!-- start button -->
+        <button class="buttonStyle">start</button>
+        <!-- stop button -->
+        <button class="buttonStyle">stop</button>
+        <!-- reset button -->
+        <button class="buttonStyle">reset</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
